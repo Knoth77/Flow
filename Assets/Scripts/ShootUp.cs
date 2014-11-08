@@ -17,11 +17,13 @@ public class ShootUp : MonoBehaviour {
 	}
 
 	void OnParticleCollision(GameObject other) {
-
 		Rigidbody body = other.rigidbody;
 		if (body) {
 			Vector3 direction = Vector3.up;
 			body.AddForce(direction * 5);
 		}
 	}
+
+
+
 }

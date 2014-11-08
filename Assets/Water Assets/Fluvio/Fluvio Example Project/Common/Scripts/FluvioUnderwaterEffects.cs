@@ -78,9 +78,8 @@ public class FluvioUnderwaterEffects : MonoBehaviour {
 			aboveWaterObject.SetActiveRecursively(true);
 			underwaterObject.SetActiveRecursively(false);
 #else
-			underwaterObject.SetActive(false);
 			aboveWaterObject.SetActive(true);
-
+			underwaterObject.SetActive(false);
 #endif
 		}
 		

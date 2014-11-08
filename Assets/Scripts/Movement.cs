@@ -13,6 +13,8 @@ public class Movement : MonoBehaviour {
 	private bool jumped = false;
 	public float jumpForce = 1400f;
 
+	public bool movementDisabled = false;
+
 	private bool disableLeft = false;
 	private bool disableRight = false;
 	private bool disableForward = false;
@@ -85,6 +87,12 @@ public class Movement : MonoBehaviour {
 
 
 
+		if (movementDisabled) 
+		{
+			h = 0;
+			v = 0;
+		}
+
 		Move (h, v);
 		
 
@@ -115,13 +123,7 @@ public class Movement : MonoBehaviour {
 		playerRigidbody.AddForce (jumpForce * Vector3.up);
 	}
 
-	/*void OnGUI () 
-	{
-	
-	GUI.Box (new Rect (10, 10, 100, 50), playerRigidbody.velocity.ToString());
-	GUI.Box (new Rect (10, 30, 100, 50), jumped.ToString());
-	GUI.Box (new Rect (10, 50, 100, 50), onGround.ToString());
-	}*/
+
 	
 
 }

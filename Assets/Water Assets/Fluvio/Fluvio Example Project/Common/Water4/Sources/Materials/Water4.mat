@@ -43,18 +43,18 @@ Material:
           m_Offset: {x: 0, y: 0}
       data:
         first:
-          name: _RefractionTex
-        second:
-          m_Texture: {fileID: 0}
-          m_Scale: {x: 1, y: 1}
-          m_Offset: {x: 0, y: 0}
-      data:
-        first:
           name: _ShoreTex
         second:
           m_Texture: {fileID: 2800000, guid: de3d4308c5ab34e59a3689c8e1c9fe36, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 1, y: 1}
+      data:
+        first:
+          name: _RefractionTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
       data:
         first:
           name: _WavesTex
@@ -157,7 +157,7 @@ Material:
       data:
         first:
           name: _Shininess
-        second: 500
+        second: 313
       data:
         first:
           name: _InvFade
@@ -169,7 +169,7 @@ Material:
       data:
         first:
           name: _GerstnerIntensity
-        second: 1.96000004
+        second: 1.67142856
       data:
         first:
           name: _HeightDisplacement
@@ -249,16 +249,16 @@ Material:
         second: {r: 1, g: 1, b: 1, a: 1}
       data:
         first:
+          name: _MainTex_ST
+        second: {r: 1, g: 1, b: 0, a: 0}
+      data:
+        first:
           name: _Displacement
         second: {r: 6.6371665, g: 20.3539829, b: -1, a: -.681415975}
       data:
         first:
           name: _ShoreTiling
         second: {r: 1, g: 1, b: .100000001, a: .100000001}
-      data:
-        first:
-          name: _MainTex_ST
-        second: {r: 1, g: 1, b: 0, a: 0}
       data:
         first:
           name: _BumpMap_ST
@@ -294,7 +294,7 @@ Material:
       data:
         first:
           name: _BaseColor
-        second: {r: .445231408, g: .881117284, b: .992647052, a: .250980407}
+        second: {r: .235294104, g: .556997895, b: 1, a: 1}
       data:
         first:
           name: _ReflectionColor
@@ -302,11 +302,15 @@ Material:
       data:
         first:
           name: _SpecularColor
-        second: {r: 0, g: .875862122, b: 1, a: 1}
+        second: {r: .928057194, g: .928057194, b: .928057194, a: 1}
       data:
         first:
           name: _WorldLightDir
         second: {r: -.105541609, g: -.500000119, b: .859570205, a: 0}
+      data:
+        first:
+          name: _Foam
+        second: {r: .0579999983, g: .874000013, b: 0, a: 0}
       data:
         first:
           name: _GAmplitude
@@ -331,10 +335,6 @@ Material:
         first:
           name: _GDirectionCD
         second: {r: .70338881, g: -.679999888, b: .717573524, a: -.200000003}
-      data:
-        first:
-          name: _Foam
-        second: {r: .0579999983, g: .874000013, b: 0, a: 0}
       data:
         first:
           name: _DepthColor

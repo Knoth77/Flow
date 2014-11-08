@@ -5,7 +5,7 @@ using System.Collections;
 [AddComponentMenu("Fluvio Example Project/Projectors/Animated Projector")]
 public class AnimatedProjector : MonoBehaviour
 {
-    public float fps = 5.0f;
+    public float fps = 30.0f;
     public Texture2D[] frames;
 
     private int frameIndex;

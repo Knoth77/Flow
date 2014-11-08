@@ -1,0 +1,152 @@
+fileFormatVersion: 2
+guid: 8fae06f6591a68d4e86bbdf3c14ab2ff
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Armature|Bone
+    100004: Armature|Chest
+    100006: Armature|Elbow IK.L
+    100008: Armature|Elbow IK.L.001
+    100010: Armature|Foot IK.L
+    100012: Armature|Foot IK.L.001
+    100014: Armature|Foot.L
+    100016: Armature|Foot.L.001
+    100018: Armature|Hand IK .L
+    100020: Armature|Hand IK .L.001
+    100022: Armature|Head
+    100024: Armature|Knee IK .L
+    100026: Armature|Knee IK .L.001
+    100028: Armature|Lower Arm .L
+    100030: Armature|Lower Arm .L.001
+    100032: Armature|Lower Leg.L
+    100034: Armature|Lower Leg.L.001
+    100036: Armature|Stomach
+    100038: Armature|Upper Arm .L
+    100040: Armature|Upper Arm .L.001
+    100042: Armature|Upper Leg .L
+    100044: Armature|Upper Leg .L.001
+    100046: Body
+    100048: Camera
+    100050: Circle.001
+    100052: //RootNode
+    100054: Robe
+    100056: Sphere
+    100058: Sphere.001
+    100060: Staff
+    400000: Armature
+    400002: Armature|Bone
+    400004: Armature|Chest
+    400006: Armature|Elbow IK.L
+    400008: Armature|Elbow IK.L.001
+    400010: Armature|Foot IK.L
+    400012: Armature|Foot IK.L.001
+    400014: Armature|Foot.L
+    400016: Armature|Foot.L.001
+    400018: Armature|Hand IK .L
+    400020: Armature|Hand IK .L.001
+    400022: Armature|Head
+    400024: Armature|Knee IK .L
+    400026: Armature|Knee IK .L.001
+    400028: Armature|Lower Arm .L
+    400030: Armature|Lower Arm .L.001
+    400032: Armature|Lower Leg.L
+    400034: Armature|Lower Leg.L.001
+    400036: Armature|Stomach
+    400038: Armature|Upper Arm .L
+    400040: Armature|Upper Arm .L.001
+    400042: Armature|Upper Leg .L
+    400044: Armature|Upper Leg .L.001
+    400046: Body
+    400048: Camera
+    400050: Circle.001
+    400052: //RootNode
+    400054: Robe
+    400056: Sphere
+    400058: Sphere.001
+    400060: Staff
+    2300000: Circle.001
+    2300002: Sphere
+    2300004: Sphere.001
+    2300006: Staff
+    3300000: Circle.001
+    3300002: Sphere
+    3300004: Sphere.001
+    3300006: Staff
+    4300000: Staff
+    4300002: Robe
+    4300004: Body
+    4300006: Sphere.001
+    4300008: Sphere
+    4300010: Circle.001
+    7400000: Panting
+    7400002: B Look up to right
+    7400004: Armature|B Dusting self
+    7400006: Armature|B Getting up
+    7400008: Armature|B Idle to Cast
+    7400010: Armature|B Knocked Down back
+    7400012: Armature|B Look up to right
+    7400014: Armature|Idle
+    7400016: Armature|Panting
+    7400018: Armature|Pointing off to the right
+    7400020: Armature|Run
+    7400022: Armature|Untitled
+    7400024: Armature|Walk
+    7400026: Staff|Untitled
+    9500000: //RootNode
+    13700000: Body
+    13700002: Robe
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

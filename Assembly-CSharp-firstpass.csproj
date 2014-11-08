@@ -48,11 +48,15 @@
   <ItemGroup>
      <Compile Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
      <None Include="Assets\Water Assets\Fluvio\Fluvio Example Project\Common\Water4\Sources\Shaders\FX-SimpleWater4.shader" />
+     <None Include="Assets\Standard Assets\Projectors\Guidelines.txt" />
      <None Include="Assets\Water Assets\Fluvio\Fluvio Example Project\Common\Image Effects\_Sources\Shaders\FluvioTwirlEffect.shader" />
      <None Include="Assets\Water Assets\Fluvio\Fluvio Example Project\Unity-4.3.0\Scenes\Fluvio3DExample\BeastSettings.xml" />
+     <None Include="Assets\Standard Assets\Projectors\Sources\Shaders\Projector Multiply.shader" />
      <None Include="Assets\Water Assets\Fluvio\Fluvio Example Project\Common\Water4\Sources\Shaders\WaterInclude.cginc" />
      <None Include="Assets\Water Assets\Fluvio\_Main\Fluvio.Runtime.xml" />
+     <None Include="Assets\DiffuseCullOff.shader" />
      <None Include="Assets\Water Assets\Fluvio\Fluvio Example Project\Common\Image Effects\_Sources\Shaders\FluvioFisheyeShader.shader" />
+     <None Include="Assets\Standard Assets\Projectors\Sources\Shaders\Projector Light.shader" />
      <None Include="Assets\Water Assets\Fluvio\Fluvio Example Project\Common\Water4\Sources\Shaders\FX-Water4.shader" />
      <None Include="Assets\Water Assets\Fluvio\Fluvio Example Project\Common\Water4\Sources\Shaders\FX-Water4Underwater.shader" />
      <None Include="Assets\Water Assets\Fluvio\Fluvio Example Project\Common\Projectors\Shaders\Projector Light.shader" />
