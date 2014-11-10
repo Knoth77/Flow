@@ -6,6 +6,7 @@ public class PlayerSpray : MonoBehaviour {
 
 	private ParticleEmitter emitter;
 	private float scaler = 20.0f;
+	public bool shoot = false;
 
 	void Start () 
 	{
@@ -21,6 +22,11 @@ public class PlayerSpray : MonoBehaviour {
 
 		Particle[] particles = emitter.particles;
 
+		if (!shoot) {
+						emitter.emit = false;
+						return;
+				} else
+						emitter.emit = true;
 
 		int i = 0;
 		while (i < particles.Length) 

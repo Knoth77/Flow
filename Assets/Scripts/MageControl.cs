@@ -61,7 +61,7 @@ public class MageControl : MonoBehaviour
 
 	}
 
-	void setMageToAppear()
+	public void setMageToAppear()
 	{
 		mageActive = true;
 		doneGrowing = false;
@@ -69,7 +69,7 @@ public class MageControl : MonoBehaviour
 		effectAppear ();
 	}
 
-	void setMageToDissapear()
+	public void setMageToDissapear()
 	{
 		mageActive = false;
 		effectAppear ();

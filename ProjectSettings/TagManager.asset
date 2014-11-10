@@ -9,6 +9,10 @@ TagManager:
   - Spikes
   - InitSpawn
   - EntranceTriLight
+  - LadderTrig
+  - MageIntro
+  - Iceball
+  - IceSpawn
   - 
   Builtin Layer 0: Default
   Builtin Layer 1: TransparentFX

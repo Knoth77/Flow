@@ -13,12 +13,16 @@ public class Movement : MonoBehaviour {
 	private bool jumped = false;
 	public float jumpForce = 1400f;
 
-	public bool movementDisabled = false;
+	private bool ladderClimb = false;
+	
 
-	private bool disableLeft = false;
-	private bool disableRight = false;
-	private bool disableForward = false;
-	private bool disableBackwards = false;
+	public bool movementDisabled = false;
+	
+
+	private UnderwaterScript underWaterInfo;
+	private bool isUnderWater;
+
+	public PlayerSpray waterGun;
 
 
 
@@ -26,25 +30,56 @@ public class Movement : MonoBehaviour {
 	void Awake ()
 	{
 		playerRigidbody = GetComponent <Rigidbody> ();
+		underWaterInfo = GetComponent<UnderwaterScript> ();
 	}
 
 
 	void Update()
 	{
 
-		/*if (playerRigidbody.velocity.y == 0 && !onGround) 
-		{
-			onGround = true;
-		}*/
+		if (Input.GetMouseButton (0)) {
+						waterGun.shoot = true;
+				} else
+						waterGun.shoot = false;
 
-		if (Input.GetButtonDown ("Jump") && onGround) 
+		if (ladderClimb) 
 		{
-			jumped = true;
+			if(Input.GetKey("w"))
+			{
+				transform.position += Vector3.up;
+			}
 		}
+
+
+		if (!isUnderWater) 
+		{
+			if (Input.GetButtonDown ("Jump") && onGround) 
+			{
+			jumped = true;
+			}
+		} 
+		else 
+		{
+			if(Input.GetButton("Jump"))
+			{
+				//rigidbody.constantForce.relativeForce = new Vector3 (0,20,0);
+				Vector3 up = new Vector3 (0,5,0);
+				rigidbody.velocity = up;
+
+			}
+			else
+			{
+				//rigidbody.constantForce.relativeForce = new Vector3 (0,0,0);
+				//rigidbody.velocity = Vector3.zero;
+			}
+		}
+
 	}
 
 	void OnCollisionStay(Collision collisionInfo)
 	{
+
+
 		foreach (ContactPoint contact in collisionInfo.contacts) 
 		{
 			if(contact.otherCollider.gameObject.tag == "Level_Floor")
@@ -57,8 +92,28 @@ public class Movement : MonoBehaviour {
 		}
 	}
 
+
+	void OnTriggerEnter(Collider other)
+	{
+		if (other.gameObject.tag == "LadderTrig") 
+		{
+			ladderClimb = true;
+		}
+	}
+
+	void OnTriggerExit(Collider other)
+	{
+		if (other.gameObject.tag == "LadderTrig") 
+		{
+			ladderClimb = false;
+		}
+	}
+
 	void OnCollisionExit(Collision collisionInfo)
 	{
+
+
+
 		foreach (ContactPoint contact in collisionInfo.contacts) 
 		{
 			if(contact.otherCollider.gameObject.tag == "Level_Floor")
@@ -75,11 +130,14 @@ public class Movement : MonoBehaviour {
 	void FixedUpdate ()
 	{
 
+		isUnderWater = underWaterInfo.isUnderWater ();
+
+
+
 		float h = Input.GetAxisRaw ("Horizontal");
 		float v = Input.GetAxisRaw ("Vertical");
 
-
-		if (jumped) 
+		if (jumped  && !movementDisabled) 
 		{
 			Jump ();
 			jumped = false;
@@ -111,11 +169,15 @@ public class Movement : MonoBehaviour {
 
 		movement = Camera.main.transform.rotation * movement;
 		movement.y = 0f;
+
 		
 
 		movement = movement.normalized * speed * Time.deltaTime;
 
 		playerRigidbody.MovePosition (transform.position + movement);
+
+
+
 	}
 
 	void Jump()

@@ -46,7 +46,12 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\BottomCollide.cs" />
+     <Compile Include="Assets\DragonMuralTrigger.cs" />
+     <Compile Include="Assets\IceBallSpawner.cs" />
      <Compile Include="Assets\MageAppear.cs" />
+     <Compile Include="Assets\MageDialog.cs" />
+     <Compile Include="Assets\RiseWater.cs" />
      <Compile Include="Assets\Scripts\CausticsRenderer.cs" />
      <Compile Include="Assets\Scripts\CloseGate.cs" />
      <Compile Include="Assets\Scripts\ControlLightAndDoor.cs" />
@@ -56,6 +61,7 @@
      <Compile Include="Assets\Scripts\ShootUp.cs" />
      <Compile Include="Assets\Scripts\SpikeScript.cs" />
      <Compile Include="Assets\Scripts\UnderwaterScript.cs" />
+     <Compile Include="Assets\ShootForward.cs" />
      <Compile Include="Assets\Water Assets\Fluvio\Fluvio Example Project\Common\Image Effects\FluvioFisheye.cs" />
      <Compile Include="Assets\Water Assets\Fluvio\Fluvio Example Project\Common\Image Effects\FluvioImageEffectBase.cs" />
      <Compile Include="Assets\Water Assets\Fluvio\Fluvio Example Project\Common\Image Effects\FluvioImageEffects.cs" />
