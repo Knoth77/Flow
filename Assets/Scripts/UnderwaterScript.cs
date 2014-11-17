@@ -18,6 +18,15 @@ public class UnderwaterScript : MonoBehaviour {
 	void Start () 
 	{
 		underWater = false;
+
+		Component[] causticsrenderers = projectors.gameObject.GetComponentsInChildren<CausticsRenderer>();
+		foreach (CausticsRenderer cr in causticsrenderers) 
+		{
+			cr.LoadTextures();
+		}
+
+		//projectors.SetActive (true);
+		//projectors.SetActive (false);
 	}
 	
 	// Update is called once per frame
