@@ -8,6 +8,7 @@ public class PlayerSpray : MonoBehaviour {
 	private float scaler = 20.0f;
 	public bool shoot = false;
 
+
 	void Start () 
 	{
 	
@@ -66,6 +67,14 @@ public class PlayerSpray : MonoBehaviour {
 		//emitter.worldVelocity.Set (10, 10, 10);
 	}
 
+
+	void OnParticleCollision(GameObject gbo)
+	{
+		//gameObject.camera.transform.forward
+		//gameObject.GetComponentInParent<Camera> ().transform.forward;
+		if (gbo.tag.Equals ("Iceball")) 
+			gbo.rigidbody.AddForce (100 * (Camera.main.transform.forward));
+	}
 
 
 

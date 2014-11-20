@@ -39,10 +39,10 @@
 	<Reference Include="System.Core" />
 	<Reference Include="System.Xml.Linq" />
 	<Reference Include="UnityEngine">
-	  <HintPath>G:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
 	</Reference>
 	<Reference Include="UnityEditor">
-	  <HintPath>G:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
 	</Reference>
   </ItemGroup>
   <ItemGroup>
@@ -61,10 +61,10 @@
      <None Include="Assets\Water Assets\Fluvio\Fluvio Example Project\Common\Water4\Sources\Shaders\FX-Water4Underwater.shader" />
      <None Include="Assets\Water Assets\Fluvio\Fluvio Example Project\Common\Projectors\Shaders\Projector Light.shader" />
  <Reference Include="UnityEngine.UI">
- <HintPath>G:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.0/UnityEngine.UI.dll</HintPath>
+ <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.0/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="Fluvio.Runtime">
- <HintPath>G:/Users/Matt/Flow/Assets/Water Assets/Fluvio/_Main/Fluvio.Runtime.dll</HintPath>
+ <HintPath>C:/Users/Milk/Documents/Flow/Assets/Water Assets/Fluvio/_Main/Fluvio.Runtime.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>

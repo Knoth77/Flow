@@ -39,29 +39,34 @@
 	<Reference Include="System.Core" />
 	<Reference Include="System.Xml.Linq" />
 	<Reference Include="UnityEngine">
-	  <HintPath>G:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
 	</Reference>
 	<Reference Include="UnityEditor">
-	  <HintPath>G:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\BottomCollide.cs" />
-     <Compile Include="Assets\DragonMuralTrigger.cs" />
-     <Compile Include="Assets\IceBallSpawner.cs" />
-     <Compile Include="Assets\MageAppear.cs" />
-     <Compile Include="Assets\MageDialog.cs" />
-     <Compile Include="Assets\RiseWater.cs" />
+     <Compile Include="Assets\Scripts\BottomCollide.cs" />
+     <Compile Include="Assets\Scripts\BoulderWallBreak.cs" />
      <Compile Include="Assets\Scripts\CausticsRenderer.cs" />
      <Compile Include="Assets\Scripts\CloseGate.cs" />
      <Compile Include="Assets\Scripts\ControlLightAndDoor.cs" />
+     <Compile Include="Assets\Scripts\DragonMuralTrigger.cs" />
+     <Compile Include="Assets\Scripts\IceBallSpawner.cs" />
+     <Compile Include="Assets\Scripts\MageAppear.cs" />
      <Compile Include="Assets\Scripts\MageControl.cs" />
+     <Compile Include="Assets\Scripts\MageDialog.cs" />
+     <Compile Include="Assets\Scripts\MazeBoulder.cs" />
+     <Compile Include="Assets\Scripts\MazeIceBallSpawner.cs" />
      <Compile Include="Assets\Scripts\Movement.cs" />
      <Compile Include="Assets\Scripts\PlayerSpray.cs" />
+     <Compile Include="Assets\Scripts\RiseWater.cs" />
+     <Compile Include="Assets\Scripts\ShootForward.cs" />
      <Compile Include="Assets\Scripts\ShootUp.cs" />
      <Compile Include="Assets\Scripts\SpikeScript.cs" />
+     <Compile Include="Assets\Scripts\SprayTrigger.cs" />
+     <Compile Include="Assets\Scripts\TriggerColor.cs" />
      <Compile Include="Assets\Scripts\UnderwaterScript.cs" />
-     <Compile Include="Assets\ShootForward.cs" />
      <Compile Include="Assets\Water Assets\Fluvio\Fluvio Example Project\Common\Image Effects\FluvioFisheye.cs" />
      <Compile Include="Assets\Water Assets\Fluvio\Fluvio Example Project\Common\Image Effects\FluvioImageEffectBase.cs" />
      <Compile Include="Assets\Water Assets\Fluvio\Fluvio Example Project\Common\Image Effects\FluvioImageEffects.cs" />
@@ -101,13 +106,13 @@
      <None Include="Assets\Water Assets\Fluvio\Fluvio Example Project\Common\Water4\Sources\Shaders\FX-Water4Underwater.shader" />
      <None Include="Assets\Water Assets\Fluvio\Fluvio Example Project\Common\Projectors\Shaders\Projector Light.shader" />
  <Reference Include="Assembly-UnityScript-firstpass">
- <HintPath>G:/Users/Matt/Flow/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+ <HintPath>C:/Users/Milk/Documents/Flow/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>G:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.0/UnityEngine.UI.dll</HintPath>
+ <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.0/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="Fluvio.Runtime">
- <HintPath>G:/Users/Matt/Flow/Assets/Water Assets/Fluvio/_Main/Fluvio.Runtime.dll</HintPath>
+ <HintPath>C:/Users/Milk/Documents/Flow/Assets/Water Assets/Fluvio/_Main/Fluvio.Runtime.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>

@@ -13,6 +13,9 @@ TagManager:
   - MageIntro
   - Iceball
   - IceSpawn
+  - TriggerSpray
+  - BreakableWall
+  - PlayerSpray
   - 
   Builtin Layer 0: Default
   Builtin Layer 1: TransparentFX
@@ -29,7 +32,7 @@ TagManager:
   User Layer 12: EntranceDoor
   User Layer 13: Floor
   User Layer 14: Walls
-  User Layer 15: 
+  User Layer 15: IceBallLayer
   User Layer 16: 
   User Layer 17: 
   User Layer 18: 
