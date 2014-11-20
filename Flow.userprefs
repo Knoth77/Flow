@@ -1,10 +1,18 @@
 ﻿<Properties>
+<<<<<<< HEAD
   <MonoDevelop.Ide.Workspace />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\MazeBoulder.cs">
     <Files>
       <File FileName="Assets\Scripts\MazeBoulder.cs" Line="22" Column="76" />
       <File FileName="Assets\Scripts\MazeIceBallSpawner.cs" Line="24" Column="45" />
       <File FileName="Assets\Scripts\SprayTrigger.cs" Line="52" Column="38" />
+=======
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\UnderwaterScript.cs">
+    <Files>
+      <File FileName="Assets\Scripts\UnderwaterScript.cs" Line="25" Column="22" />
+      <File FileName="Assets\Scripts\CausticsRenderer.cs" Line="22" Column="9" />
+>>>>>>> b53a5ed2e96082944b5d6e69d6f9046eae7541b6
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
